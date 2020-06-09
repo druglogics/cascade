@@ -1,0 +1,606 @@
+ENTITYA	TYPEA	IDA	DATABASEA	ENTITYB	TYPEB	IDB	DATABASEB	EFFECT	MECHANISM	RESIDUE	SEQUENCE	TAX_ID	CELL_DATA	TISSUE_DATA	MODULATOR_COMPLEX	TARGET_COMPLEX	MODIFICATIONA	MODASEQ	MODIFICATIONB	MODBSEQ	PMID	DIRECT	NOTES	ANNOTATOR	SENTENCE	SIGNOR_ID
+CSK	protein			SRC	protein			inhibit													#PMID: 20826718					
+MAPK8IP3	protein			MAP2K7	protein			activate													#PMID: 10629060					
+RND3	protein			RHOA	protein			inhibit													#PMID:12773565					
+ROCK1	protein			MAPK8IP3	protein			activate													#PMID: 19036714					
+ROCK1	protein			RND3	protein			activate													#PMID: 15775972					
+ROCK1	protein			TIAM1	protein			inhibit													#PMID: 22430126					
+ROCK1	protein			ARHGAP24	protein			activate													#PMID: 16862148					
+ROCK1	protein			LIMK2	protein			activate													#PMID: 11018042					
+ROCK1	protein			LIMK1	protein			activate													#PMID:10652353					
+ROCK1	protein			PTEN	protein			activate													#PMID: 20008297, 15793569					
+TIAM1	protein			RAC_f	protein family			activate													#PMID: 22430126					
+ARHGAP24	protein			RAC_f	protein family			inhibit													#PMID: 16862148					
+ARHGAP24	protein			CDC42	protein			inhibit													#PMID: 16862148					
+LIMK1	protein			CFL_f	protein family			activate													#PMID:10652353					
+CFL_f	protein family			SRF	protein			activate													#PMID:15068801					
+SRF	protein			FOS	protein			activate													#PMID: 15068801					
+SMURF2	protein			TGFBR1	protein			inhibit													#PMID:17317136, 11163210					
+SMURF2	protein			TGFBR2	protein			inhibit													#PMID: 22298955					
+SMURF2	protein			SMAD2	protein			inhibit													#PMID: 11016919					
+SMURF2	protein			SMAD5	protein			inhibit													#PMID: 22298955					
+SMURF2	protein			SMAD7	protein			inhibit													#PMID: 18448069					
+SMURF2	protein			BMPR2	protein			inhibit													#PMID: 22298955					
+BMPR2	protein			ACVR1	protein			activate													#PMID: 7791754					
+SMURF1	protein			TGFBR1	protein			inhibit													#PMID:17317136					
+SMURF1	protein			TGFBR2	protein			inhibit													#PMID: 22298955					
+SMURF1	protein			SMAD1	protein			inhibit													#PMID: 17317136, 22298955					
+SMURF1	protein			SMAD4	protein			inhibit													#PMID: 15817471					
+SMURF1	protein			BMPR2	protein			inhibit													#PMID: 22298955					
+SMURF1	protein			RHOA	protein			inhibit													#PMID: 15761148					
+SMURF1	protein			SMAD7	protein			activate													#PMID: 12519765					
+ACVR1	protein			SMAD5	protein			activate													#PMID: 9748228					
+ACVR1	protein			SMAD2	protein			activate													#PMID: 14517293					
+ACVR1	protein			SMAD3	protein			activate													#PMID: 14517293					
+ACVR1	protein			SMAD1	protein			activate													#PMID:9748228					
+PPM1A	protein			IKBKB	protein			inhibit													#PMID: 18930133					
+PPM1A	protein			SMAD1	protein			inhibit													#PMID: 16931515					
+PPM1A	protein			SMAD2	protein			inhibit													#PMID: 16751101					
+PPM1A	protein			SMAD3	protein			inhibit													#PMID: 16751101					
+PPM1A	protein			AXIN1	protein			inhibit													#PMID: 10644691					
+SMAD5	protein			SMAD4	protein			activate													#PMID: 20957627					
+ISGF3_c	protein complex			Antisurvival	phenotype			activate													#PMID: 25049377					
+PIAS1	protein			SMAD4	protein			activate													#PMID:15028714					
+PIAS1	protein			STAT1	protein			inhibit													#PMID: 14699505, 23663276					
+PIAS1	protein			TP53	protein			activate													#PMID: 20016603					
+IRAK1	protein			STAT3	protein			activate													#PMID: 15465816					
+IRAK1	protein			TRAF6	protein			activate													#					
+SOCS1	protein			IRAK1	protein			inhibit													#PMID: 12433373					
+SOCS1	protein			JAK_f	protein family			inhibit													#PMID: 11133764					
+STAT2	protein			ISGF3_c	protein complex			activate													#PMID: 8943351, 17923090					
+LIMK2	protein			CFL_f	protein family			activate													#PMID:10652353					
+GRB2	protein			SOS1	protein			activate													#PMID: 23131845, 18813292					
+GRB2	protein			GAB_f	protein family			activate													#PMID: 21531565, 23131845					
+PPP1CA	protein			AXIN1	protein			inhibit													#PMID:17318175					
+PPP1CA	protein			MDM2	protein			activate													#PMID: 23277204					
+PPP1CA	protein			AKT_f	protein family			inhibit													#PMID: 14633703					
+PPP1CA	protein			CASP9	protein			activate													#PMID:16888006					
+PPP1CA	protein			ERK_f	protein family			inhibit													#PMID: 12840032					
+PPP1CA	protein			STAT3	protein			inhibit													#PMID: 19440292					
+MAP3K4	protein			MAP2K4	protein			activate													#PMID: 22535895					
+MAP3K11	protein			MAP2K4	protein			activate													#PMID: 22535895					
+KRAS	protein			RAF_f	protein family			activate													#PMID: 18813292					
+KRAS	protein			PIK3CA	protein			activate													#PMID: 21531565, 21779497					
+PTPN11	protein			KRAS	protein			activate													#PMID: 21531565					
+PTPN11	protein			PTK2	protein			inhibit													#PMID: 16920701					
+PIK3CA	protein			RAC_f	protein family			activate													NA					
+PIK3CA	protein			PDPK1	protein			activate													#PMID: 19629070					
+PIK3CA	protein			mTORC2_c	protein complex			activate													#PMID: 28103956					
+RHEB	protein			mTORC1_c	protein complex			activate													#PMID: 21531565, 16915295, 22500797, 19339977					
+RHEB	protein			RAF_f	protein family			inhibit													#PMID: 16288294, 16803888					
+mTORC1_c	protein complex			STAT3	protein			activate													#PMID: 18691976, 16740698					
+mTORC1_c	protein complex			S6K_f	protein family			activate													#PMID: 21531565, 22168436, 23246968					
+mTORC1_c	protein complex			DUSP6	protein			activate													#PMID: 20463170					
+mTORC1_c	protein complex			HIF1A	protein			activate													#PMID: 20670887					
+PRKCD	protein			STAT1	protein			activate													#PMID: 17502367					
+PRKCD	protein			STAT3	protein			activate													#PMID: 16418226					
+PRKCD	protein			TP53	protein			activate													#PMID: 16377624					
+PRKCD	protein			EP300	protein			inhibit													#PMID: 12379484					
+PRKCD	protein			LIMK2	protein			inhibit													#PMID: 15923181					
+PDPK1	protein			PLK1	protein			activate													#PMID: 23887393					
+PDPK1	protein			AKT_f	protein family			activate													#PMID: 19629070, 19339977					
+PDPK1	protein			S6K_f	protein family			activate													#PMID: 9445476, 20563709					
+PDPK1	protein			RSK_f	protein family			activate													#PMID: 21568903, 18813292					
+PDPK1	protein			PRKCD	protein			activate													#PMID: 9748166					
+mTORC2_c	protein complex			AKT_f	protein family			activate													#PMID: 21531565, 19629070					
+mTORC2_c	protein complex			RAC_f	protein family			activate													#PMID: 22500797, 19339977					
+FZD_f	protein family			LRP_f	protein family			activate													#PMID: 22682243					
+FZD_f	protein family			DVL_f	protein family			activate													#PMID: 20006983					
+TGFBR1	protein			TRAF6	protein			activate													#PMID:18758450					
+TGFBR1	protein			SMAD2	protein			activate													#PMID:9346908, 9346908					
+TGFBR1	protein			SHC1	protein			activate													#PMID: 17673906					
+TGFBR1	protein			SMAD3	protein			activate													#PMID: 19458083					
+TGFBR1	protein			PARD6A	protein			activate													#PMID: 15761148					
+PLCG1	protein			SOS1	protein			activate													#PMID: 10913276					
+PLCG1	protein			PRKCA	protein			activate													#PMID: 10946303					
+SYK	protein			PLCG1	protein			activate													#PMID: 8657103					
+SYK	protein			VAV1	protein			activate													#PMID: 11331248					
+VAV1	protein			RAC_f	protein family			activate													#PMID: 10982832					
+MOB1_f	protein family			LATS_f	protein family			activate													#PMID: 21084559					
+NOTCH1	protein			NFKB_f	protein family			activate													#PMID: 11591772					
+NOTCH1	protein			HIF1A	protein			activate													#PMID: 16256737					
+NOTCH1	protein			MYC	protein			activate													#PMID: 16847353					
+NOTCH1	protein			HES1	protein			activate													#PMID: 19165418					
+S6K_f	protein family			MDM2	protein			inhibit													#PMID: 22168436, 20657550					
+S6K_f	protein family			IRS1	protein			inhibit													#PMID: 21531565, 18952604, 16915295					
+S6K_f	protein family			mTORC2_c	protein complex			inhibit													#PMID: 21531565, 21421716, 24189516, 23246968, 20418915					
+S6K_f	protein family			GSK3_f	protein family			inhibit													#PMID: 21531565, 20447678, 19884009					
+MAPKAPK2	protein			PIAS1	protein			activate													#PMID: 23202365					
+MAPKAPK2	protein			SRF	protein			activate													#PMID: 20626350					
+MAPKAPK2	protein			MDM2	protein			activate													#PMID: 15688025					
+MAPKAPK2	protein			PLK1	protein			activate													#PMID: 18695677					
+MAPKAPK2	protein			CREB1	protein			activate													#PMID: 8887554,17389598					
+MAPK14	protein			TAB_f	protein family			inhibit													#PMID: 14592977, 19629069, 23954936					
+MAPK14	protein			SMAD3	protein			activate													#PMID: 14512875					
+MAPK14	protein			ATF2	protein			activate													#PMID: 10085140					
+MAPK14	protein			STAT1	protein			activate													#PMID: 17502367					
+MAPK14	protein			STAT3	protein			activate													#PMID: 18691976, 23255093					
+MAPK14	protein			RTPK_f	protein family			inhibit													#PMID: 19629069					
+MAPK14	protein			MSK_f	protein family			activate													#PMID: 19629069, 22535895, 18813292					
+MAPK14	protein			LRP_f	protein family			activate													#PMID: 20974802					
+MAPK14	protein			TP53	protein			activate													#PMID: 19629069, 15838523					
+MAPK14	protein			GSK3_f	protein family			inhibit													#PMID: 19629069					
+MAPK14	protein			DUSP1	protein			activate													#PMID: 19629069					
+MAPK14	protein			MAPKAPK2	protein			activate													#PMID: 20626350					
+MAPK14	protein			HIF1A	protein			activate													#PMID: 17003045					
+MAPK14	protein			CFLAR	protein			activate													#PMID: 19597496					
+CDC42	protein			PAK1	protein			activate													#PMID: 8107774					
+SHC1	protein			GRB2	protein			activate													#PMID: 22443084					
+SRC	protein			STAT1	protein			activate													#PMID: 14978237					
+SRC	protein			STAT3	protein			activate													#PMID: 14551213					
+SRC	protein			CDC42	protein			activate													#PMID: 14506284					
+SRC	protein			PTPN6	protein			activate													#PMID: 14699166					
+SRC	protein			SHC1	protein			activate													#PMID: 26551075					
+SRC	protein			PTEN	protein			inhibit													#PMID: 25448482					
+SRC	protein			PTK2	protein			activate													#PMID: 72896811,15735010					
+SRC	protein			CASP8	protein			inhibit													#PMID: 16619028, 18089778, 19851329, 18974049, 16619028, 18216014					
+LIF	protein			ILR_f	protein family			activate													#PMID: 12509453					
+RHOA	protein			ROCK1	protein			activate													#PMID: 22430126, 8798490					
+PRKDC	protein			TP53	protein			activate													#PMID: 9363941					
+PRKDC	protein			AKT_f	protein family			activate													#PMID: 18439899					
+PRKDC	protein			CHEK2	protein			activate													#PMID: 15668230					
+SFRP1	protein			FZD_f	protein family			inhibit													#PMID: 20828404					
+DKK_f	protein family			LRP_f	protein family			inhibit													#PMID: 22682243					
+CDKN2A	protein			CCND1	protein			inhibit													#PMID: 8891723,11154267					
+CDKN2A	protein			ATR	protein			activate													#PMID: 15775976					
+CDKN2A	protein			MDM2	protein			inhibit													#PMID: 23416275					
+TGFBR2	protein			TGFBR1	protein			activate													#PMID: 22326956					
+TGFBR2	protein			PARD6A	protein			activate													#PMID: 15761148, 23249950					
+TCF7_f	protein family			CCND1	protein			activate													#PMID: 23483189					
+TCF7_f	protein family			EGR1	protein			inhibit													#PMID: 21297666, 18798221					
+TCF7_f	protein family			MYC	protein			activate													#PMID: 23483189					
+TCF7_f	protein family			DKK_f	protein family			activate													NA					
+PTEN	protein			PPM1A	protein			activate													#PMID: 18482992					
+PTEN	protein			PDPK1	protein			inhibit													#PMID: 22737980					
+PTEN	protein			SHC1	protein			inhibit													#PMID: 22737980					
+PTEN	protein			PTK2	protein			inhibit													#PMID: 10400703					
+PHLPP1	protein			S6K_f	protein family			inhibit													#PMID: 21986499					
+PHLPP1	protein			STK_f	protein family			activate													#PMID: 20513427,23431050					
+PHLPP1	protein			AKT_f	protein family			inhibit													#PMID: 17386267,19261600					
+PHLPP1	protein			PRKCA	protein			inhibit													#PMID: 18162466					
+SUFU	protein			GLI_f	protein family			inhibit													#PMID: 15367681, 10564661					
+SMO	protein			SUFU	protein			inhibit													#PMID: 22114142					
+CSNK1A1	protein			BID	protein			activate													#PMID: 11583622					
+CSNK1A1	protein			CDC25A	protein			inhibit													#PMID: 20348946					
+CSNK1A1	protein			CREB1	protein			activate													#PMID: 9931297					
+CSNK1A1	protein			CTNNB1	protein			inhibit													#PMID: 20419129					
+CSNK1A1	protein			DD_f	protein family			inhibit													#PMID: 16061179					
+CSNK1A1	protein			FOXO_f	protein family			inhibit													#PMID: 19188143, 20110348					
+CSNK1A1	protein			GLI_f	protein family			inhibit													#PMID: 16611981, 17419683, 11955435					
+CSNK1A1	protein			GSK3_f	protein family			activate													#PMID: 19293931, 22083140					
+CSNK1A1	protein			SMO	protein			activate													#PMID: 21695114					
+ATR	protein			ATM	protein			activate													#PMID: 17124492					
+ATR	protein			CREB1	protein			inhibit													#PMID: 15073328					
+ATR	protein			BRCA1	protein			activate													#PMID: 11114888,11278964,23422740					
+ATR	protein			CHEK1	protein			activate													#PMID: 15775976					
+ATR	protein			MDM2	protein			inhibit													#PMID: 14654783					
+ATR	protein			PRKDC	protein			activate													#PMID: 16908529					
+ATR	protein			CHEK2	protein			activate													#PMID: 10973490					
+ATR	protein			TP53	protein			activate													#PMID: 11865061					
+ABL1	protein			ATR	protein			activate													#PMID: 20798688					
+ABL1	protein			MDM2	protein			inhibit													#PMID: 21081495, 12110584					
+SKI	protein			SMAD1	protein			inhibit													#PMID: 12419246					
+SKI	protein			SMAD2	protein			inhibit													#PMID: 12793438, 10575014					
+SKI	protein			SMAD3	protein			inhibit													#PMID: 12793438, 10575014					
+SKI	protein			SMAD4	protein			inhibit													#PMID: 12793438					
+SKI	protein			SMAD5	protein			inhibit													#PMID: 12419246, 22298955					
+SKI	protein			EP300	protein			inhibit													#PMID: 10575014					
+AKT1S1	protein			mTORC1_c	protein complex			inhibit													#PMID: 21531565, 21421716, 24189516, 23246968, 20418915					
+MAP3K5	protein			MAP2K3	protein			activate													#PMID: 22535895					
+CFLAR	protein			CASP8	protein			inhibit													#PMID: 19629069, 16469705					
+EP300	protein			SMAD7	protein			activate													#PMID: 12408818					
+EP300	protein			CBPp300_c	protein complex			activate													#					
+EP300	protein			TP53	protein			activate													#PMID: 11070080					
+EP300	protein			SKP2	protein			activate													#PMID: 22770219					
+CDKN1B	protein			CCNE1	protein			inhibit													#PMID: 17409098					
+AKT_f	protein family			CHUK	protein			activate													#PMID: 19339977, 21772278, 18519641					
+AKT_f	protein family			SMAD3	protein			inhibit													#PMID: 15048128					
+AKT_f	protein family			SKI	protein			inhibit													#PMID: 19875456					
+AKT_f	protein family			TSC_f	protein family			inhibit													#PMID: 21531565, 16915295, 19339977, 19629070					
+AKT_f	protein family			AKT1S1	protein			inhibit													#PMID: 22500797					
+AKT_f	protein family			MAP3K5	protein			inhibit													#PMID: 11154276					
+AKT_f	protein family			RAF_f	protein family			inhibit													#PMID: 21531565, 10576742					
+AKT_f	protein family			BAD	protein			inhibit													#PMID: 19629070, 18955968					
+AKT_f	protein family			FOXO_f	protein family			inhibit													#PMID: 19629070, 21613825					
+AKT_f	protein family			GSK3_f	protein family			inhibit													#PMID: 21297666, 19629070, 19884009					
+AKT_f	protein family			CFLAR	protein			activate													#PMID: 20484045, 23070002, 15665818					
+AKT_f	protein family			EP300	protein			activate													#PMID: 16926151					
+AKT_f	protein family			CREB1	protein			activate													#PMID: 9829964					
+AKT_f	protein family			STK_f	protein family			inhibit													#PMID: 19940129,23431050					
+AKT_f	protein family			XIAP	protein			activate													#PMID: 14645242					
+AKT_f	protein family			MDM2	protein			activate													#PMID: 22963678, 22510990					
+AKT_f	protein family			BRCA1	protein			activate													#PMID: 20085797,17428466					
+AKT_f	protein family			CDKN1A	protein			inhibit													#PMID: 16982699,17855660					
+AKT_f	protein family			CDKN1B	protein			inhibit													#PMID: 18570873,12042310					
+AKT_f	protein family			CHEK1	protein			inhibit													#PMID: 15107605					
+BID	protein			BAX	protein			activate													#PMID: 16243507,10629050					
+BID	protein			BCL2	protein			inhibit													#PMID: 22464442					
+BID	protein			BAK1	protein			activate													#PMID: 11175253,12242151, 17289999					
+BTRC	protein			CTNNB1	protein			inhibit													#PMID: 22682243					
+BTRC	protein			YAP_TAZ	protein			inhibit													#PMID: 23431053					
+DAAM1	protein			RHOA	protein			activate													#PMID:19365405					
+RAC_f	protein family			RHOA	protein			inhibit													#PMID: 22430126					
+RAC_f	protein family			LIMK1	protein			activate													#PMID:10652353					
+RAC_f	protein family			PAK1	protein			activate													#PMID: 12650940, 8107774					
+RAC_f	protein family			MAP3K4	protein			activate													#PMID: 9305638,20006983					
+RAC_f	protein family			MAP3K11	protein			activate													#PMID: 18668205					
+RAC_f	protein family			EMT	phenotype			activate													#PMID: 17373658					
+APC	protein			CTNNB1	protein			inhibit													#PMID: 22083140					
+PARD6A	protein			RHOA	protein			inhibit													#PMID: 15761148					
+PARD6A	protein			PRKCA	protein			activate													#PMID: 22544755					
+CSNK1_f	protein family			APC	protein			activate													#PMID: 11487578					
+CSNK1_f	protein family			AXIN1	protein			activate													#PMID: 12000790					
+CSNK1_f	protein family			BID	protein			activate													#PMID: 11583622					
+CSNK1_f	protein family			CTNNB1	protein			inhibit													#PMID: '12000790,'12176352					
+CSNK1_f	protein family			DVL_f	protein family			activate													#PMID: '16965538,'10517632,'22609948					
+CSNK1_f	protein family			LEF1	protein			inhibit													#PMID: 15747065					
+CSNK1_f	protein family			LRP_f	protein family			activate													#PMID: 16513652					
+CSNK1_f	protein family			MDM2	protein			inhibit													#PMID: '12167711,20708156					
+CSNK1_f	protein family			YAP_TAZ	protein			inhibit													#PMID: 24715453,'23431053					
+LEF1	protein			MMP_f	protein family			activate													#PMID: 15457508					
+LEF1	protein			MYC	protein			activate													#PMID: 19653274					
+CASP3	protein			ROCK1	protein			activate													#PMID: 11283607					
+CASP3	protein			PRKCD	protein			activate													#PMID: 16377624					
+CASP3	protein			Antisurvival	phenotype			activate													#					
+CREB1	protein			FOXO_f	protein family			inhibit													#PMID: 15126506					
+CREB1	protein			BCL2	protein			activate													#PMID: 8816467					
+CREB1	protein			FOS	protein			activate													#PMID: 17668895					
+SMAD6	protein			TGFBR1	protein			inhibit													#PMID:20663871					
+SMAD6	protein			SMAD1	protein			inhibit													#PMID: 12857866					
+SMAD6	protein			SMAD4	protein			inhibit													#PMID: 15817471					
+SMAD6	protein			SMAD3	protein			inhibit													#PMID: 9892110					
+SMAD7	protein			TGFBR1	protein			inhibit													#PMID: 9892110, 20663871					
+SMAD7	protein			PPP1CA	protein			activate													#PMID: 16571110					
+SMAD7	protein			SMAD3	protein			inhibit													#PMID: 9892110					
+SMAD7	protein			SMURF2	protein			activate													#PMID: 11163210, 19352540, 21791611					
+SMAD7	protein			SMURF1	protein			activate													#PMID: 11163210, 19352540, 21791611					
+SMAD7	protein			SMAD4	protein			inhibit													#PMID: 15817471					
+SMAD4	protein			AP1_c	protein complex			activate													#PMID: 9732876, 10085140, 9732876					
+SMAD4	protein			SMAD6	protein			activate													NA					
+SMAD4	protein			SMAD7	protein			activate													NA					
+SOS1	protein			KRAS	protein			activate													#PMID: 18813292					
+MEK_f	protein family			ERK_f	protein family			activate													#PMID: 18813292, 17496922					
+MEK_f	protein family			RTPK_f	protein family			inhibit													#PMID: 23246968					
+RAF_f	protein family			MEK_f	protein family			activate													#PMID: 18813292					
+RAF_f	protein family			LIF	protein			activate													#PMID: 12509453					
+RAF_f	protein family			STK_f	protein family			inhibit													#PMID: 22898666					
+RAF_f	protein family			BAD	protein			inhibit													#PMID: 17535812, 15849190					
+GAB_f	protein family			PTPN11	protein			activate													#PMID: 21531565					
+GAB_f	protein family			PIK3CA	protein			activate													#PMID: 16453012					
+MSK_f	protein family			NFKB_f	protein family			activate													#PMID: 21772278					
+MSK_f	protein family			REL_f	protein family			activate													#PMID: 12628924					
+MSK_f	protein family			DUSP1	protein			activate													#PMID: 23954936					
+MSK_f	protein family			CREB1	protein			activate													#PMID: 24438093 					
+RSK_f	protein family			CCND1	protein			activate													#PMID: 18813292, 23970478					
+RSK_f	protein family			FOS	protein			activate													#PMID: 8248197					
+RSK_f	protein family			TSC_f	protein family			inhibit													#PMID: 21531565,23246968					
+RSK_f	protein family			BAD	protein			inhibit													#PMID: 18813292					
+RSK_f	protein family			mTORC1_c	protein complex			activate													#PMID: 18813292					
+RSK_f	protein family			GSK3_f	protein family			inhibit													#PMID: 21531565, 23483189, 20447678, 19884009					
+RSK_f	protein family			SRF	protein			activate													#PMID: 18813292					
+RSK_f	protein family			CREB1	protein			activate													#PMID: 10558990,8688081					
+GSK3_f	protein family			SMAD1	protein			inhibit													#PMID: 21183076, 18045539					
+GSK3_f	protein family			SMAD3	protein			inhibit													#PMID: 18172167					
+GSK3_f	protein family			JUN	protein			inhibit													#PMID: 16023596					
+GSK3_f	protein family			PTEN	protein			inhibit													#PMID: 17444818					
+GSK3_f	protein family			BTRC	protein			activate													#PMID: 22682243					
+GSK3_f	protein family			TSC_f	protein family			activate													#PMID: 22500797, 23246968					
+GSK3_f	protein family			MYC	protein			inhibit													#PMID: 18701488, 14563837, 16023596					
+GSK3_f	protein family			AXIN1	protein			activate													#PMID: 23343194					
+GSK3_f	protein family			CCND1	protein			inhibit													#PMID: 23552696					
+GSK3_f	protein family			SNAI_f	protein family			inhibit													#PMID: 15448698,20305690					
+GSK3_f	protein family			GLI_f	protein family			inhibit													#PMID: 16611981					
+GSK3_f	protein family			APC	protein			activate													#PMID: 10698523					
+GSK3_f	protein family			PHLPP1	protein			inhibit													#PMID: 19797085					
+GSK3_f	protein family			CDC25A	protein			inhibit													#PMID: 20348946					
+GSK3_f	protein family			MCL1	protein			inhibit													#PMID: 16543145					
+DUSP1	protein			MAPK14	protein			inhibit													#PMID: 20463170					
+DUSP1	protein			JNK_f	protein family			inhibit													#PMID: 19629069					
+HIF1A	protein			EMT	phenotype			activate													#PMID: 27476001					
+ADAM17	protein			NOTCH1	protein			activate													#PMID: 10882063					
+ATF2	protein			AP1_c	protein complex			activate													#					
+JUN	protein			AP1_c	protein complex			activate													#					
+JUN	protein			TGFB1	protein			activate													#PMID: 10843986, 2108318					
+STAT3	protein			CCND1	protein			activate													#PMID: 19880237, 26730496					
+STAT3	protein			BIRC_f	protein family			activate													#PMID: 26512963					
+STAT3	protein			MYC	protein			activate													#PMID: 10851053, 26730496, 21408055					
+STAT3	protein			MMP_f	protein family			activate													#PMID: 20067773, 26730496					
+ITCH	protein			SMAD2	protein			activate													#PMID: 15350225					
+ITCH	protein			SMAD7	protein			inhibit													#PMID: 15946939					
+ITCH	protein			CFLAR	protein			inhibit													#PMID: 19629069					
+ITCH	protein			DVL_f	protein family			inhibit													#PMID: 23343194					
+LRP_f	protein family			AXIN1	protein			inhibit													#PMID: 23343194					
+LRP_f	protein family			BTRC	protein			inhibit													#PMID: 22682243, 19884009					
+LRP_f	protein family			CSNK1A1	protein			inhibit																		
+STK_f	protein family			MOB1_f	protein family			activate													#PMID: 23431053,2180824					
+STK_f	protein family			FOXO_f	protein family			activate													#PMID: 22898666,18394870					
+MCL1	protein			BAX	protein			inhibit													#PMID: 17289999					
+MCL1	protein			BAK1	protein			inhibit													#PMID: 17289999					
+APAF1	protein			CASP9	protein			activate													#PMID: 9390557,15829969					
+CASP9	protein			CASP3	protein			activate													#PMID: 19550425, 20844150					
+XIAP	protein			CASP9	protein			inhibit													#PMID: 11242052,9545235					
+XIAP	protein			CASP3	protein			inhibit													#PMID: 11583623, 1054811					
+MMP_f	protein family			RTPK_f	protein family			activate													#PMID: 23483189, 16266693					
+MMP_f	protein family			EMT	phenotype			activate													#PMID: 19584257					
+CDH1	protein			EMT	phenotype			inhibit													#PMID: 15601859					
+CDH1	protein			LRP_f	protein family			activate													#PMID: 20940130					
+FOS	protein			PRKACA	protein			activate													#PMID: 15772294, 26310818					
+FOS	protein			AP1_c	protein complex			activate													#PMID: 9732876					
+FOS	protein			TGFB1	protein			activate													#PMID: 10843986, 2108318					
+TWIST1	protein			EMT	phenotype			activate													#PMID: 15601859					
+TWIST1	protein			SNAI_f	protein family			activate													#PMID: 20646316					
+TWIST1	protein			MMP_f	protein family			activate													#PMID: 20646316					
+TWIST1	protein			ILK	protein			inhibit													#PMID: 19051271					
+TWIST1	protein			CDH1	protein			inhibit													#PMID: 15311212					
+TWIST1	protein			FOS	protein			activate													#PMID: 19051271					
+PTCH1	protein			SMO	protein			inhibit													#PMID: 14556242					
+GLI_f	protein family			PTCH1	protein			activate													#PMID: 19860666					
+GLI_f	protein family			CCND1	protein			activate													#PMID: 3563490, 188869					
+SKP2	protein			CDKN1A	protein			inhibit																		
+SKP2	protein			DUSP1	protein			inhibit													#PMID: 16286470					
+ATM	protein			CREB1	protein			inhibit													#PMID: 15073328					
+ATM	protein			HIF1A	protein			activate													#PMID: 21095582					
+ATM	protein			AURKB	protein			inhibit													#PMID: 18250156					
+ATM	protein			TP53	protein			activate													#PMID: 20663147,17967874,11875057,11875057,17157788					
+ATM	protein			MDM2	protein			inhibit													#PMID: 19816404,11331603,17936559,12383858, 19816404					
+ATM	protein			CHEK1	protein			activate													#PMID:20068082					
+ATM	protein			BRCA1	protein			activate													#PMID: 10550055,1202401					
+ATM	protein			PRKDC	protein			activate													#PMID: 17189255					
+ATM	protein			AKT_f	protein family			inhibit													#PMID: 18534819					
+ATM	protein			ABL1	protein			activate													#PMID: 916817,9168116					
+ATM	protein			CHEK2	protein			activate													#PMID: 10973490,1202405					
+ATM	protein			BUB1	protein			activate													#PMID:22099307					
+CCNB1	protein			Prosurvival	phenotype			activate													#PMID: 15549093					
+CCNB1	protein			CDC25A	protein			activate													#PMID: 12411508					
+CCNB1	protein			MCL1	protein			activate													#PMID: '18676833,'20526282					
+CCNE1	protein			Prosurvival	phenotype			activate													#PMID: 21524151					
+CCNE1	protein			RB1	protein			inhibit													#PMID: 10207050					
+MYC	protein			SFRP1	protein			inhibit													NA					
+MYC	protein			DKK_f	protein family			inhibit													NA					
+MYC	protein			CDC25A	protein			activate													#PMID: 11154267					
+MYC	protein			CDKN1A	protein			inhibit													#PMID: 12835716					
+MYC	protein			CDKN1B	protein			inhibit													#PMID: 11313917					
+MYC	protein			CDKN2A	protein			inhibit													#PMID: 12835716					
+MYC	protein			CCND1	protein			activate													#PMID: 12835716					
+CHEK2	protein			TP53	protein			activate													#PMID: 15659650,17339330					
+CHEK2	protein			CDC25A	protein			inhibit													#PMID: 11298456,12676580					
+CHEK2	protein			BRCA1	protein			activate													#PMID: 14701743					
+CHEK2	protein			RB1	protein			activate													#PMID: 17380128					
+BUB1	protein			PLK1	protein			activate													NA					
+AURKB	protein			BIRC_f	protein family			inhibit													#PMID: 17457057					
+AURKB	protein			TP53	protein			inhibit													#PMID: 20959462,22611190					
+AURKB	protein			ATM	protein			activate													#PMID: 22099307					
+RB1	protein			E2F1	protein			inhibit													NA					
+RB1	protein			Prosurvival	phenotype			inhibit													#PMID: 21524151					
+RB1	protein			ABL1	protein			inhibit													#PMID: 8242749					
+CDC25A	protein			CCND1	protein			activate													#PMID: 23429262					
+CDC25A	protein			CCNE1	protein			activate													#PMID: 11154267					
+CHEK1	protein			SYK	protein			inhibit													NA					
+CHEK1	protein			AURKB	protein			activate													#PMID: 17276342					
+CHEK1	protein			RB1	protein			activate													#PMID: 17380128					
+CHEK1	protein			TP53	protein			activate													#PMID: 15659650					
+CHEK1	protein			CDC25A	protein			inhibit													#PMID: 20068082,14559990					
+CHEK1	protein			NFKB_f	protein family			inhibit													NA					
+TGFB1	protein			TGFBR2	protein			activate													#					
+TGFB1	protein			CCNE1	protein			inhibit													#PMID: 10611320					
+TGFB1	protein			CDKN1B	protein			activate													#PMID: 17283133					
+PRKACA	protein			SRC	protein			activate													NA					
+PRKACA	protein			CREB1	protein			activate													#PMID: 21902831					
+PRKACA	protein			GLI_f	protein family			inhibit													#PMID: 16885213,17419680					
+PRKACA	protein			CSK	protein			activate													#PMID: 20826718					
+PRKACA	protein			APC	protein			inhibit													#PMID: 11050185					
+EGR1	protein			PTEN	protein			activate													NA					
+ILK	protein			AKT_f	protein family			activate													#PMID: 9736715					
+JNK_f	protein family			ATF2	protein			activate													#PMID:15068801					
+JNK_f	protein family			JUN	protein			activate													#PMID:15068801					
+JNK_f	protein family			SMAD3	protein			activate													#PMID: 10601313					
+JNK_f	protein family			STAT3	protein			activate													#PMID: 23255093					
+JNK_f	protein family			ITCH	protein			activate													#PMID: 16446428, 19629069					
+JNK_f	protein family			LRP_f	protein family			activate													#PMID: 20974802					
+JNK_f	protein family			STK_f	protein family			activate													#PMID: 20028971					
+JNK_f	protein family			MYC	protein			activate													#PMID: 10551811					
+JNK_f	protein family			MCL1	protein			activate													#PMID: '18676833,'12223490					
+JNK_f	protein family			TWIST1	protein			activate													#PMID: 21502402					
+PAK1	protein			SNAI_f	protein family			activate													NA					
+PAK1	protein			ILK	protein			activate													#PMID: 17420447					
+PAK1	protein			JNK_f	protein family			activate													#PMID: 22252525					
+PAK1	protein			AURKA	protein			activate													NA					
+PAK1	protein			BAD	protein			inhibit													NA					
+LATS_f	protein family			SNAI_f	protein family			activate													#PMID: 21952048					
+LATS_f	protein family			YAP_TAZ	protein			inhibit													#PMID: 20048001, '22658639, '22863277, '21808241					
+PLK1	protein			IKBKB	protein			inhibit													#PMID: 18957422					
+PLK1	protein			BIRC_f	protein family			activate													#PMID: 21148584					
+PLK1	protein			MYC	protein			activate													#PMID: 23887393					
+PLK1	protein			CHEK2	protein			activate													#PMID: 12493754					
+PLK1	protein			MDM2	protein			activate													NA					
+BRCA1	protein			ATM	protein			activate													#PMID: 22832221					
+BRCA1	protein			CDKN1A	protein			activate													NA					
+AXIN1	protein			SMAD7	protein			inhibit													#PMID: 16601693					
+AXIN1	protein			BTRC	protein			activate													#PMID: 22682243					
+AXIN1	protein			APC	protein			activate													#PMID: 9734785					
+AXIN1	protein			CSNK1_f	protein family			activate													#PMID: 12000790					
+AURKA	protein			DD_f	protein family			activate													#PMID :21978935					
+AURKA	protein			LATS_f	protein family			activate													#PMID: 21822051,15147260					
+AURKA	protein			PLK1	protein			activate													#PMID: 18615013					
+AURKA	protein			BRCA1	protein			activate													#PMID: 14990569					
+AURKA	protein			AXIN1	protein			inhibit													#PMID: 19060929					
+ILR_f	protein family			IRAK1	protein			activate													#PMID: 14625308					
+ILR_f	protein family			JAK_f	protein family			activate													#PMID: 12509453, 21122157					
+ILR_f	protein family			SHC1	protein			activate													#PMID: 9126968					
+ILR_f	protein family			SYK	protein			activate													#PMID: 24398980					
+CREBBP	protein			CBPp300_c	protein complex			activate													#					
+CREBBP	protein			CREB1	protein			activate													#PMID: 9829964					
+AP1_c	protein complex			ILR_f	protein family			activate													#PMID: 21122157					
+AP1_c	protein complex			CCND1	protein			activate													NA					
+CTNNB1	protein			LEF1	protein			activate													#PMID: 15457508, 19619488					
+CTNNB1	protein			TCF7_f	protein family			activate													#PMID: 22682243					
+CTNNB1	protein			MYC	protein			activate													#PMID: 15735151,1410807					
+DVL_f	protein family			DAAM1	protein			activate													#PMID:19365405					
+DVL_f	protein family			RAC_f	protein family			activate													#PMID:19365405, 20006983, 21181886					
+DVL_f	protein family			GSK3_f	protein family			inhibit													#PMID: 20006983					
+DVL_f	protein family			APC	protein			inhibit													#PMID: 10330181					
+DVL_f	protein family			PARD6A	protein			activate													#PMID: 23151663					
+DVL_f	protein family			CSNK1_f	protein family			activate													#PMID: 10535959					
+SMAD1	protein			SMAD4	protein			activate													#PMID: 20957627, 21454478					
+SMAD1	protein			DVL_f	protein family			activate													#PMID: 16621789					
+SMAD2	protein			SMAD4	protein			activate													#PMID:11274206					
+SMAD2	protein			SMAD6	protein			activate													NA					
+SMAD2	protein			SMAD7	protein			activate													NA					
+SMAD2	protein			CREB1	protein			activate													#PMID: 9689110					
+SMAD3	protein			SMAD4	protein			activate													#PMID: 9843571					
+SMAD3	protein			AP1_c	protein complex			activate													#PMID: 9732876, 10085140,					
+SMAD3	protein			SMAD6	protein			activate													NA					
+SMAD3	protein			SMAD7	protein			activate													NA					
+SMAD3	protein			CDC25A	protein			inhibit													#PMID: 22740686					
+CCND1	protein			Prosurvival	phenotype			activate													#PMID: 23483189					
+CCND1	protein			SKP2	protein			activate													#PMID: 16331253, 26319102					
+CCND1	protein			RB1	protein			inhibit													#PMID9139732,10207050					
+CCND1	protein			BRCA1	protein			inhibit													#PMID: 17334399					
+YAP_TAZ	protein			AP1_c	protein complex			activate													#PMID: 23075495					
+YAP_TAZ	protein			BIRC_f	protein family			activate													#PMID: 23075495					
+YAP_TAZ	protein			CTNNB1	protein			activate													#PMID: 23607968					
+YAP_TAZ	protein			DVL_f	protein family			inhibit													#PMID: 22153608					
+YAP_TAZ	protein			SMAD1	protein			activate													#PMID: 23431053					
+YAP_TAZ	protein			SMAD2	protein			activate													#PMID: 21084559					
+YAP_TAZ	protein			SMAD3	protein			activate													#PMID:  21084559					
+YAP_TAZ	protein			CCND1	protein			activate													NA					
+BAD	protein			BCL2	protein			inhibit													#PMID: 18955968					
+BAD	protein			TP53	protein			activate													NA					
+BIRC_f	protein family			DIABLO	protein			inhibit													#PMID: 17546047					
+BIRC_f	protein family			CASP9	protein			inhibit													#PMID: 11069302,9545235					
+BIRC_f	protein family			CASP3	protein			inhibit													#PMID: 10587640,9850056					
+BIRC_f	protein family			XIAP	protein			activate													#PMID: 15218035					
+BAX	protein			DIABLO	protein			activate													#PMID: 21210296,14585070					
+BAX	protein			CYCS	protein			activate													#PMID: 20683470					
+MDM2	protein			TP53	protein			inhibit													#PMID: 22963678, 23303139					
+MDM2	protein			CDKN1A	protein			inhibit																		
+CBPp300_c	protein complex			REL_f	protein family			activate													#PMID: 16382138					
+CBPp300_c	protein complex			SMAD2	protein			activate													#PMID: 17074756					
+CBPp300_c	protein complex			PTEN	protein			inhibit													#PMID: 24054978, 16829519					
+CDKN1A	protein			CCNB1	protein			inhibit													#PMID: 10913154					
+CDKN1A	protein			CCNE1	protein			inhibit													#PMID: 11154267					
+CDKN1A	protein			RB1	protein			activate													#PMID: 10439039					
+BBC3	protein			BAX	protein			activate													#PMID: '1557433,'19439449					
+BBC3	protein			BCL2	protein			inhibit													#PMID: 11463392,15694340					
+BBC3	protein			MCL1	protein			inhibit													#PMID: 15694340					
+BBC3	protein			BAK1	protein			activate													#PMID: '22492984,'17289999					
+TP53	protein			IKBKB	protein			inhibit													#PMID: 21772278					
+TP53	protein			BIRC_f	protein family			inhibit													#PMID: 11714700,11965530					
+TP53	protein			BAX	protein			activate													#PMID: 19550425					
+TP53	protein			MDM2	protein			activate													NA					
+TP53	protein			CBPp300_c	protein complex			inhibit													#PMID: 10207072					
+TP53	protein			CDKN1A	protein			activate													#PMID: 21524151,75661570					
+TP53	protein			BBC3	protein			activate													#PMID: 16151013					
+TP53	protein			BAK1	protein			activate													#PMID: 15077116					
+TP53	protein			BCL2	protein			inhibit													NA					
+DIABLO	protein			BIRC_f	protein family			inhibit													#PMID: 10929711,17546047,14960576,					
+DIABLO	protein			CASP9	protein			activate													#PMID: 10929711					
+DIABLO	protein			XIAP	protein			inhibit													#PMID: 17724022					
+CYCS	protein			APAF1	protein			activate													#PMID: 15829969,15907470					
+CYCS	protein			CASP9	protein			activate													#PMID: 19550425					
+BAK1	protein			CYCS	protein			activate													#PMID: 11175253					
+BAK1	protein			DIABLO	protein			activate													#PMID: 14585074					
+BCL2	protein			DIABLO	protein			inhibit													#PMID: 14585074					
+BCL2	protein			CYCS	protein			inhibit													#PMID: 19550425					
+BCL2	protein			BAK1	protein			inhibit													#PMID: '17289999,'9463381,'22492984					
+PRKCA	protein			CHUK	protein			activate													#PMID: 10946303					
+PRKCA	protein			PTPN6	protein			inhibit													NA					
+PRKCA	protein			REL_f	protein family			activate													NA					
+JAK_f	protein family			STAT2	protein			activate													#PMID: 9020188					
+JAK_f	protein family			STAT1	protein			activate													#PMID: 11823427					
+JAK_f	protein family			STAT3	protein			activate													#PMID: 19723038					
+PTPN6	protein			JAK_f	protein family			inhibit													#PMID: 14624462					
+ERK_f	protein family			SMAD1	protein			inhibit													#PMID: 9335504					
+ERK_f	protein family			SMAD2	protein			activate													#PMID: 10197981, 12193595					
+ERK_f	protein family			SMAD3	protein			inhibit													#PMID: 9335504, 10197981					
+ERK_f	protein family			SMAD4	protein			activate													#PMID: 12801888					
+ERK_f	protein family			ATF2	protein			activate													#PMID: 12110590					
+ERK_f	protein family			FOS	protein			activate													#PMID: 8248197, 12972619, 7816602, 12972619, 12972619					
+ERK_f	protein family			STAT3	protein			activate													#PMID: 19723038, 14551213					
+ERK_f	protein family			DUSP6	protein			activate													#PMID: 20463170					
+ERK_f	protein family			SOS1	protein			inhibit													#PMID: 21531565, 22443084, 17496922					
+ERK_f	protein family			MEK_f	protein family			inhibit													#PMID: 21531565					
+ERK_f	protein family			RAF_f	protein family			inhibit													#PMID: 21531565, 22443084, 17496922					
+ERK_f	protein family			GAB_f	protein family			inhibit													#PMID: 21531565					
+ERK_f	protein family			IRS1	protein			inhibit													#PMID: 23246968					
+ERK_f	protein family			MSK_f	protein family			activate													#PMID: 18813292					
+ERK_f	protein family			RSK_f	protein family			activate													#PMID: 16868029, 18813292					
+ERK_f	protein family			LRP_f	protein family			activate													#PMID: 20974802					
+ERK_f	protein family			TSC_f	protein family			inhibit													#PMID: 20974802					
+ERK_f	protein family			GSK3_f	protein family			inhibit													#PMID: 21531565					
+ERK_f	protein family			DUSP1	protein			activate													NA					
+ERK_f	protein family			SKP2	protein			activate													#PMID: 16286470					
+ERK_f	protein family			HIF1A	protein			activate													#PMID: 18519666					
+ERK_f	protein family			ADAM17	protein			activate													#PMID: 12058067					
+ERK_f	protein family			MCL1	protein			activate													#PMID: '18676833,'12223490					
+ERK_f	protein family			TWIST1	protein			activate													#PMID: 21502402					
+DUSP6	protein			ERK_f	protein family			inhibit													#PMID: 20463170					
+DUSP6	protein			FOXO_f	protein family			activate													NA					
+RTPK_f	protein family			GRB2	protein			activate													NA					
+RTPK_f	protein family			SHC1	protein			activate													#PMID: 22970934					
+RTPK_f	protein family			PPP1CA	protein			inhibit													#PMID: 14633703					
+RTPK_f	protein family			SRC	protein			activate													#PMID: 9442882					
+RTPK_f	protein family			PTK2	protein			activate													#PMID: 20802513					
+SNAI_f	protein family			CDH1	protein			inhibit													#PMID: 15311212,19055748,15311210					
+SNAI_f	protein family			MMP_f	protein family			activate													#PMID: 22074556					
+SNAI_f	protein family			EMT	phenotype			activate													#PMID: 19055748					
+CASP8	protein			BID	protein			activate													#PMID: 9727492					
+CASP8	protein			CASP3	protein			activate													#PMID: 20844150					
+DD_f	protein family			SNAI_f	protein family			activate													#PMID: 20509143					
+DD_f	protein family			CASP8	protein			activate													#PMID: 11717445					
+DD_f	protein family			IKBKB	protein			activate													NA					
+DD_f	protein family			CHUK	protein			activate													NA					
+STAT1	protein			REL_f	protein family			inhibit													#PMID: 16481475					
+STAT1	protein			ISGF3_c	protein complex			activate													#PMID: 8943351					
+STAT1	protein			SOCS1	protein			activate													NA					
+IRS1	protein			PIK3CA	protein			activate													#PMID: 16915295					
+TSC_f	protein family			RHEB	protein			inhibit													#PMID: 21531565, 16915295, 22500797, 19339977					
+TSC_f	protein family			mTORC2_c	protein complex			activate													#PMID: 20418915, 18411301					
+MAP3K8	protein			MEK_f	protein family			activate													#PMID: 21377269					
+FOXO_f	protein family			RTPK_f	protein family			activate													NA					
+FOXO_f	protein family			Antisurvival	phenotype			activate													#					
+TAB_f	protein family			MAP3K7	protein			activate													#PMID: 19629069, 23954936					
+CHUK	protein			NFKB_f	protein family			activate													#PMID: 17072321					
+CHUK	protein			CTNNB1	protein			activate													#PMID: 21772278,16616828					
+CHUK	protein			CREBBP	protein			activate													#PMID: 17434128					
+CHUK	protein			CCND1	protein			inhibit													NA					
+TRAF6	protein			TAB_f	protein family			activate													#PMID: 18758450					
+TRAF6	protein			CHUK	protein			activate													#PMID: 9275204,952004					
+TRAF6	protein			MAP3K7	protein			activate													NA					
+MAP2K3	protein			MAPK14	protein			activate													#PMID: 19629069					
+MAP2K4	protein			JNK_f	protein family			activate													#PMID: 19629069					
+MAP2K4	protein			MAPK14	protein			activate													#PMID: 19629069					
+MAP2K7	protein			DD_f	protein family			inhibit													#PMID: 15001534					
+MAP2K7	protein			JNK_f	protein family			activate													#PMID: 19036714, 15068801					
+IKBKB	protein			REL_f	protein family			activate													#PMID: 16382138					
+IKBKB	protein			STAT1	protein			activate													#PMID: 17502367					
+IKBKB	protein			NFKB_f	protein family			activate													#PMID: 17072321					
+IKBKB	protein			IRS1	protein			inhibit													#PMID: 21772278					
+IKBKB	protein			TSC_f	protein family			inhibit													#PMID: 22500797, 19339977					
+IKBKB	protein			MAP3K8	protein			activate													#PMID: 21772278, 21377269					
+IKBKB	protein			FOXO_f	protein family			inhibit													#PMID: 19188143, 15084260					
+NLK	protein			TCF7_f	protein family			inhibit													#PMID: 21181886, 20194509, 12482967					
+NLK	protein			FOXO_f	protein family			inhibit													#PMID: 20061393					
+MAP3K7	protein			MAP2K3	protein			activate													#PMID: 21333379, 22705006, 19366914					
+MAP3K7	protein			MAP2K4	protein			activate													#PMID: 21333379, 22705006, 19366914					
+MAP3K7	protein			MAP2K7	protein			activate													#PMID: 21333379, 22705006, 19366914					
+MAP3K7	protein			IKBKB	protein			activate													#PMID: 21173796, 22435549					
+MAP3K7	protein			NLK	protein			activate													#PMID: 21181886, 20194509, 12482967, 23954936					
+NFKB_f	protein family			BIRC_f	protein family			activate													#PMID: 9733516					
+NFKB_f	protein family			MDM2	protein			activate													NA					
+NFKB_f	protein family			TGFB1	protein			activate													#PMID: 16365456					
+NFKB_f	protein family			PRKACA	protein			activate													#PMID: 19618291, 26310818					
+NFKB_f	protein family			EGR1	protein			activate													#PMID: 15998794					
+NFKB_f	protein family			CCND1	protein			activate													NA					
+REL_f	protein family			NFKB_f	protein family			activate													#PMID: 16382138					
+REL_f	protein family			HES1	protein			activate													NA					
+E2F1	protein 			Prosurvival	phenotype			activate													NA					
+E2F1	protein 			CCNE1	protein			activate													NA					
+E2F1	protein 			CDC25A	protein			activate													NA					
+RBPJ	protein			HES1	protein			activate													#PMID: 10520600					
+RBPJ	protein			CDKN1A	protein			activate													#PMID: 11432830					
+HES1	protein			E2F1	protein 			inhibit													#PMID: 19891787					
+HES1	protein			RBPJ	protein			inhibit													#PMID: 16682003					
+GRAP2	protein			MAP2K4	protein			activate													#PMID: 19629069					
+GRAP2	protein			MAP2K7	protein			activate													#					
+MAPK14	protein			GRAP2	protein			inhibit													#PMID: 19629069					
