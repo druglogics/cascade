@@ -1,0 +1,68 @@
+---
+title: "Cascade file (Signor .tsv format) to topology (.sif)"
+author: "[John Zobolas](https://github.com/bblodfon)"
+date: "Last updated: `r format(Sys.time(), '%d %B, %Y')`"
+output:
+  html_document:
+    theme: united
+    number_sections: false
+    code_folding: show
+    code_download: true
+---
+
+With the code below we translate the `cascade_2.0.tsv` file (or any Signor-based 
+interactions .tsv format file) to a single interactions file (`cascade_2.0.sif`).
+
+```{r Input Singor data, comment=""}
+# load cascade file
+cascade.file = "cascade_2.0.tsv"
+entries = read.table(file = cascade.file, header = TRUE, sep = "\t", 
+                     comment.char = "", stringsAsFactors = FALSE)
+
+# format of columns is Signor based (.tsv output)
+colnames(entries)
+```
+
+```{r Output SIF file}
+# check that ENTITYA, ENTITYB, EFFECT columns are not empty for any interaction
+entity.A = entries["ENTITYA"]
+entity.B = entries["ENTITYB"]
+effect = entries["EFFECT"] # inhibit or activate
+
+causal.entries = cbind(entity.A, entity.B, effect)
+  
+stopifnot(all(sum(entity.A != "")))
+stopifnot(all(sum(entity.B != "")))
+stopifnot(all(sum(effect != "")))
+
+# add effect annotation
+effect.annot = apply(causal.entries, 1, function(entry) {
+  if (entry[3] == "activate") return("->")
+  else if (entry[3] == "inhibit") return("-|")
+  else stop("effect column value is neither activate nor inhibit")
+})
+
+causal.entries = cbind(causal.entries, effect.annot)
+
+# remove EFFECT column
+causal.entries = causal.entries[c("ENTITYA","effect.annot","ENTITYB")]
+
+# output to file (seperator: space)
+topology.file = "cascade_2.0.sif"
+write.table(x = causal.entries, file = topology.file, quote = FALSE, 
+            col.names = FALSE, row.names = FALSE, sep = " ")
+```
+
+```{r Report number of nodes and edges from .sif topology file, comment=""}
+interactions = read.table(file = topology.file)
+
+num.of.interactions = nrow(interactions)
+sources = as.character(interactions[, 1])
+targets = as.character(interactions[, 3])
+
+nodes = unique(c(sources, targets))
+num.of.nodes = length(nodes)
+
+print(paste0("File: ", topology.file, " has ", num.of.nodes, " nodes",
+  " and ", num.of.interactions, " interactions"))
+```
