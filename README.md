@@ -1,6 +1,8 @@
 # CASCADE - CAncer Signaling CAusality DatabasE
 
-This repository contains **manually curated causal interactions** to describe cancer signaling events and is compliant with the annotation standard established by [SIGNOR database](http://signor.uniroma2.it/).
+This repository contains **manually curated causal interactions** to describe cancer signaling events and is compliant with the annotation standard established by the [SIGNOR database](http://signor.uniroma2.it/).
+
+## Versions
 
 There are different versions of the CASCADE topology:
 
@@ -13,7 +15,7 @@ This version was featured in Flobak et al. (2015). Discovery of Drug Synergies i
 2. **CASCADE 2.0** (144 nodes and 367 interactions - see [cascade_2.0.tsv](https://github.com/druglogics/cascade/blob/master/cascade_2.0.tsv) and [cascade_2.0.sif](https://github.com/druglogics/cascade/blob/master/cascade_2.0.sif)).
 This version was featured in Niederdorfer et al. (2020). Strategies to Enhance Logic Modeling-Based Cell Line-Specific Drug Synergy Prediction. *Frontiers in Physiology*, 11, 862. https://doi.org/10.3389/fphys.2020.00862
 3. **CASCADE 3.0** (183 nodes and 603 interactions - see respective directory with files).
-This version was featured in Tsirvouli et al. (2020). A middle-out modeling strategy to extend a colon cancer logical model improves drug synergy predictions in epithelial-derived cancer cell lines. *Frontiers in Molecular Biosciences*, 7, 300. https://doi.org/10.3389/FMOLB.2020.502573
+This version was featured in Tsirvouli et al. (2020). A middle-out modeling strategy to extend a colon cancer logical model improves drug synergy predictions in epithelial-derived cancer cell lines. *Frontiers in Molecular Biosciences*, 7, 300. https://doi.org/10.3389/fmolb.2020.502573
 
 ## Pathways
 
