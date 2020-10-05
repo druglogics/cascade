@@ -1,5 +1,9 @@
 # CASCADE - CAncer Signaling CAusality DatabasE
 
+<!-- badges: start -->
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4066665.svg)](https://doi.org/10.5281/zenodo.4066665)
+<!-- badges: end -->
+
 This repository contains **manually curated causal interactions** to describe cancer signaling events and is compliant with the annotation standard established by the [SIGNOR database](http://signor.uniroma2.it/).
 
 ## Versions
@@ -35,6 +39,10 @@ These pathways are linked to prosurvival and antisurvival cell signaling (e.g. c
 
 The [cascade_to_sif.Rmd](https://github.com/druglogics/cascade/blob/master/cascade_to_sif.Rmd) R code can be used to convert the SIGNOR data (`.tsv`) to a topology (`.sif`) file.
 The example in the code re-creates the `cascade_2.0.sif` (CASCADE 2.0 version).
+
+## Citation Info
+
+Eirini Tsirvouli, Barbara Niederdorfer, John Zobolas, Touré Vasundra, Åsmund Flobak, & Martin Kuiper. (2020, October 5). CASCADE - CAncer Signaling CAusality DatabasE (Version 3.0). Zenodo. http://doi.org/10.5281/zenodo.4066665
 
 ## Contact
 
