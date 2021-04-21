@@ -14,7 +14,7 @@ There are different versions of the CASCADE topology:
 GINsim files are available at the respective [GINsim model repository](http://ginsim.org/node/194).
 This version was featured in Flobak et al. (2015). Discovery of Drug Synergies in Gastric Cancer Cells Predicted by Logical Modeling. *PLOS Computational Biology*, 11(8), e1004426. https://doi.org/10.1371/journal.pcbi.1004426
 
-    Note that a slight different version of this topology ([some nodes were renamed](https://github.com/druglogics/cascade/blob/master/name_conversion.csv), with a total of 77 nodes and 149 interactions) was used as a base file to build the later versions - see [cascade_1.0.sif](https://github.com/druglogics/cascade/blob/master/cascade_1.0.sif) and [cascde_1.0.svg](https://github.com/druglogics/cascade/blob/master/cascade_1.0.svg)).
+    Note that a slight different version of this topology ([some nodes were renamed](https://github.com/druglogics/cascade/blob/master/name_conversion.csv), with a total of 77 nodes and 149 interactions) was used as a base file to build the later versions - see [cascade_1.0.sif](https://github.com/druglogics/cascade/blob/master/cascade_1.0.sif) and [cascade_1.0.svg](https://github.com/druglogics/cascade/blob/master/cascade_1.0.svg)).
 
 2. **CASCADE 2.0** (144 nodes and 367 interactions - see [cascade_2.0.tsv](https://github.com/druglogics/cascade/blob/master/cascade_2.0.tsv) and [cascade_2.0.sif](https://github.com/druglogics/cascade/blob/master/cascade_2.0.sif)).
 This version was featured in Niederdorfer et al. (2020). Strategies to Enhance Logic Modeling-Based Cell Line-Specific Drug Synergy Prediction. *Frontiers in Physiology*, 11, 862. https://doi.org/10.3389/fphys.2020.00862
